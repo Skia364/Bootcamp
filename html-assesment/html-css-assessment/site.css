@@ -1,0 +1,106 @@
+@media screen and (min-width: 600px){
+    form{
+            display: grid;
+            grid-template-columns: 20px auto;
+            width: auto;
+		}
+
+    label{
+        display: grid;
+
+			grid-column-start: 1;
+            grid-column-end: 2;
+
+		}
+
+	input,
+    select,
+    textarea {
+        display: grid;
+
+			grid-column-start: 2;
+            grid-column-end: 4;
+            width: 400px;
+
+		}}
+
+    @media screen and (max-width: 599px){
+
+    form{
+        width: auto;
+        text-align: left;
+        width: 100%;
+    }
+    label {
+        display: block;
+        margin: 0;
+        text-align: left;
+        width: 100%;
+
+    }
+    input,
+    select,
+    textarea {
+        width: 100%;
+
+}}
+.card {
+    width: 344px;
+    background: white;
+    box-shadow: 0 2px 15px 0 grey;
+    margin-top: 20px;
+    margin-left: 45px;
+    border: 40px grey;
+    border-radius: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+
+}
+.card :hover{
+    height: 100%;
+    box-shadow: rgba(0, 0, 0.3);
+    align-items: 0px;
+    vertical-align: 2px;
+    filter: blur(4px);
+    cursor: pointer;
+}
+.cardimage{
+    border-radius: 16px;
+    background-size: 100% auto;
+}
+
+.profile_picture {
+    float: left;
+    padding: 16px;
+    background-size: 0px;
+  }
+  .profile_picture img{
+      border-radius: 50%;
+  }
+
+
+ .bodytext {
+     color: #232F34;
+     margin-left: 16px;
+     display: inline-block;
+     font-size: 11px;
+
+ }
+ .card_title {
+     color: #000;
+     font-size: 22px;
+     margin-top: 16px;
+     margin-bottom: 2px;
+
+ }
+.sec_text
+ {
+    margin-top: 0em;
+    color: #232F34;
+    font-size: 11px;
+
+ }
+  .text {
+    display: inline-block;
+
+  }
